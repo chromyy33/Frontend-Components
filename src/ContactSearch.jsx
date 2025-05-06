@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Input } from "antd";
-const { Search } = Input;
 import { Avatar, List } from "antd";
 import employeeData from "../js-data/employeeData";
 const ContactSearch = () => {
@@ -25,9 +24,9 @@ const ContactSearch = () => {
 };
 
 function SearchBox({ onSearch }) {
-function onChange(e){
-    onSearch(e.target.value)
-}
+  function onChange(e) {
+    onSearch(e.target.value);
+  }
   return (
     <Input
       style={{ width: "100%", marginBottom: "1rem" }}
@@ -39,7 +38,6 @@ function onChange(e){
     />
   );
 }
-
 
 const { Item } = List;
 const { Meta } = Item;
@@ -70,8 +68,5 @@ function SearchList({ data }) {
     />
   );
 }
-
-
-
 
 export default ContactSearch;
