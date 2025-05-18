@@ -33,12 +33,6 @@ const projectData = [
     description: "A Simple counter,also made it persistent with localStorage",
     elem: Counter,
   }),
-  createProject({
-    path: "counter",
-    name: "Counter",
-    description: "A Simple counter,also made it persistent with localStorage",
-    elem: Counter,
-  }),
 ];
 
 export default projectData;
