@@ -11,8 +11,8 @@ function TweetInput() {
   const isEmpty = value.trim().length === 0;
 
   return (
-    <div className="px-8 py-12 h-[100vh] flex flex-col w-[100vw]">
-      <div className="mx-auto w-[500px]">
+    <div className=" py-12 h-[100vh] flex flex-col w-[80%] max-w-[500px] mx-auto ">
+      <div className="mx-auto w-[100%]">
         <h1 className="text-xl mb-2">Tweet Box</h1>
 
         <div style={{ position: "relative" }}>

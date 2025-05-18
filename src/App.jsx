@@ -11,7 +11,7 @@ const App = () => (
     </p>
     <Row gutter={[16, 24]}>
       {projectData.map((data, index) => (
-        <Col key={index} xs={24} sm={12} md={8} lg={6}>
+<Col key={index} xs={48} sm={24} md={12} lg={8} xl={6}>
           <ProjectCard data={data} />
         </Col>
       ))}

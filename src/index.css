@@ -1,6 +1,17 @@
-
 @import "tailwindcss";
-
-*{
+* {
   font-family: "Arial", sans-serif;
+}
+.counter-btn {
+  background: lightgrey;
+  padding: 0.4rem 0.8rem;
+  min-width: 2.4rem;
+  cursor: pointer;
+}
+.counter-btn:hover {
+  background-color: rgba(158, 155, 155, 0.8);
+  transition: all ease 0.1s;
+}
+.reset{
+  width: 85px;
 }
