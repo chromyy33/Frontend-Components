@@ -8,7 +8,7 @@ function createProject({ path, name, description, elem }) {
     description,
     dateCreated: new Date(),
     elem,
-    imageURL: `${path}.png`, // Now works correctly!
+    imageURL: `${path}.png`, 
   };
 }
 
