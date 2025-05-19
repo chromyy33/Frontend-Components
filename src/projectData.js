@@ -1,6 +1,7 @@
 import ContactSearch from "./ContactSearch";
 import TweetInput from "./TweetInput";
 import Counter from "./Counter";
+import ToastSystem from "./ToastSystem";
 function createProject({ path, name, description, elem }) {
   return {
     path,
@@ -8,7 +9,7 @@ function createProject({ path, name, description, elem }) {
     description,
     dateCreated: new Date(),
     elem,
-    imageURL: `${path}.png`, 
+    imageURL: `${path}.png`, //correct path
   };
 }
 
@@ -32,6 +33,12 @@ const projectData = [
     name: "Counter",
     description: "A Simple counter,also made it persistent with localStorage",
     elem: Counter,
+  }),
+    createProject({
+    path: "toast-system",
+    name: "Toast System",
+    description: "A Toast System made for all states, messages and postions",
+    elem: ToastSystem,
   }),
 ];
 
