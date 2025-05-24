@@ -57,7 +57,9 @@ function Counter() {
         inputMode="numeric"
         className="w-[86px] pl-3 py-1.25 text-center border border-[lightgrey] my-2 outline-gray-200"
       />
-      <label htmlFor="step">Increment/Decrement</label>
+      <label className=" mx-auto" htmlFor="step">
+        Increment/Decrement
+      </label>
     </div>
   );
 }
